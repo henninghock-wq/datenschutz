@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TideNow – Privacy Policy</title>
+    <title>TideNow – Datenschutzerklärung</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -14,11 +14,11 @@
             padding: 20px;
         }
         .container {
-            max-width: 680px;
+            max-width: 720px;
             margin: 40px auto;
             background: #fff;
             border-radius: 16px;
-            padding: 40px;
+            padding: 48px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.08);
         }
         h1 {
@@ -35,9 +35,16 @@
         h2 {
             font-size: 18px;
             font-weight: 600;
-            margin-top: 28px;
+            margin-top: 32px;
             margin-bottom: 10px;
             color: #0b3d6e;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: #333;
         }
         p, li {
             font-size: 15px;
@@ -56,14 +63,30 @@
             border-radius: 6px;
             margin: 16px 0;
         }
-        .qa-section {
-            background: #f0f5f0;
-            border-left: 3px solid #2d7a3a;
+        .warn {
+            background: #fef9e7;
+            border-left: 3px solid #d4a017;
             padding: 12px 16px;
             border-radius: 6px;
             margin: 16px 0;
         }
-        .qa-section strong { color: #2d7a3a; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid #e5e5e5;
+            color: #424245;
+        }
+        th {
+            background: #f5f5f7;
+            font-weight: 600;
+            color: #1d1d1f;
+        }
         .footer {
             margin-top: 40px;
             padding-top: 20px;
@@ -76,81 +99,190 @@
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy</h1>
-        <p class="subtitle">TideNow – Tide Tracking App | Last updated: April 2026</p>
+        <h1>Datenschutzerklärung</h1>
+        <p class="subtitle">TideNow – Gezeiten-App &amp; Website | Stand: April 2026</p>
 
         <div class="highlight">
-            <strong>Summary:</strong> TideNow does not collect, store, or share any personal data. The app works without registration, without tracking, and without advertising.
+            <strong>Kurzfassung:</strong> Die TideNow-App erhebt keine personenbezogenen Daten. Kein Tracking, keine Werbung, keine Registrierung. Die Website <a href="https://tidenow.app">tidenow.app</a> verwendet keine Tracking-Cookies. Das optionale Bug-Meldeformular erhebt nur die von dir eingegebenen Daten.
         </div>
 
-        <h2>1. Responsible Party</h2>
+        <!-- ==================== ABSCHNITT A: ALLGEMEIN ==================== -->
+
+        <h2>1. Verantwortlicher</h2>
         <p>Henning Hock<br>
-        Email: <a href="mailto:henning@tidenow.app">henning@tidenow.app</a></p>
+        E-Mail: <a href="mailto:henning@tidenow.app">henning@tidenow.app</a><br>
+        Website: <a href="https://tidenow.app">https://tidenow.app</a></p>
+        <p>Es ist kein Datenschutzbeauftragter bestellt, da die Voraussetzungen nach Art. 37 DSGVO nicht vorliegen.</p>
 
-        <h2>2. Data Collection</h2>
-        <p>TideNow does <strong>not collect any personal data</strong>. Specifically:</p>
+        <h2>2. Geltungsbereich</h2>
+        <p>Diese Datenschutzerklärung gilt für:</p>
         <ul>
-            <li><strong>Location data:</strong> The app may optionally use your device's location to find the nearest tide station. Your location is processed exclusively on your device and is never transmitted to our servers or any third parties.</li>
-            <li><strong>No user accounts:</strong> The app does not require any registration or login.</li>
-            <li><strong>No analytics:</strong> The app does not use any analytics, tracking, or crash reporting services.</li>
-            <li><strong>No advertising:</strong> The app contains no advertisements and no advertising trackers.</li>
+            <li>Die <strong>iOS-App „TideNow"</strong>, erhältlich im Apple App Store (nur Deutschland und Österreich)</li>
+            <li>Die <strong>Website</strong> <a href="https://tidenow.app">tidenow.app</a></li>
         </ul>
 
-        <h2>3. Third-Party Data Sources</h2>
-        <p>TideNow retrieves tide data from the following public services:</p>
+        <!-- ==================== ABSCHNITT B: DIE APP ==================== -->
+
+        <h2>3. Die App – Datenerhebung</h2>
+        <p>TideNow erhebt in der App <strong>keine personenbezogenen Daten</strong>. Im Einzelnen:</p>
         <ul>
-            <li><strong>Federal Maritime and Hydrographic Agency (BSH):</strong> Water level and tide forecasts for German coastal waters. Only the selected station is queried – no personal data is transmitted.</li>
-            <li><strong>TideCheck API:</strong> Supplementary tide data for international locations. No personal data is transmitted in these requests.</li>
+            <li><strong>Keine Registrierung:</strong> Die App erfordert kein Benutzerkonto und keine Anmeldung.</li>
+            <li><strong>Kein Tracking:</strong> Es werden keine Analytics-, Tracking- oder Crash-Reporting-Dienste eingesetzt.</li>
+            <li><strong>Keine Werbung:</strong> Die App enthält keine Werbung und keine Werbe-SDKs.</li>
+            <li><strong>Keine Geräte-IDs:</strong> Wir erfassen weder IDFA, IDFV noch sonstige Gerätekennungen.</li>
         </ul>
-        <p>When making these requests, your device's IP address is technically transmitted to the respective server as part of standard internet communication. This data is not stored or analyzed by us.</p>
 
-        <h2>4. Local Data Storage</h2>
-        <p>The app stores the following data exclusively on your device:</p>
+        <h3>3.1 Standortdaten</h3>
+        <p>Die App kann optional deinen Standort verwenden, um die nächstgelegene Gezeitenstation zu finden. Der Standort wird <strong>ausschließlich lokal auf deinem Gerät</strong> verarbeitet und niemals an unsere oder fremde Server übermittelt.</p>
+        <p><strong>Rechtsgrundlage:</strong> Deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) über die iOS-Standortfreigabe. Du kannst die Berechtigung jederzeit in den iPhone-Einstellungen widerrufen.</p>
+
+        <h3>3.2 Lokale Datenspeicherung</h3>
+        <p>Folgende Daten werden ausschließlich lokal auf deinem Gerät gespeichert:</p>
         <ul>
-            <li>Your selected tide station (favorites)</li>
-            <li>App settings and preferences</li>
-            <li>Cached tide data for the widget</li>
+            <li>Deine gewählte Gezeitenstation (Favoriten)</li>
+            <li>App-Einstellungen</li>
+            <li>Zwischengespeicherte Gezeitendaten für den Offline-Modus und das Widget</li>
         </ul>
-        <p>This data never leaves your device and can be deleted at any time by removing the app.</p>
+        <p>Diese Daten verlassen dein Gerät nicht und werden bei Deinstallation der App vollständig entfernt.</p>
 
-        <h2>5. Widgets</h2>
-        <p>The TideNow widget uses a shared App Group to exchange tide data between the app and the widget on your device. This data remains entirely on your device.</p>
+        <h3>3.3 Widgets</h3>
+        <p>Das TideNow-Widget nutzt eine gemeinsame App-Gruppe (App Group), um Gezeitendaten zwischen App und Widget auszutauschen. Alle Daten verbleiben dabei auf deinem Gerät.</p>
 
-        <h2>6. Children's Privacy</h2>
-        <p>TideNow does not collect any personal information from any user, including children. The app is safe for users of all ages.</p>
+        <h3>3.4 Externe Datenquellen</h3>
+        <p>Die App ruft Gezeitendaten von folgenden öffentlichen Diensten ab:</p>
+        <table>
+            <tr>
+                <th>Dienst</th>
+                <th>Zweck</th>
+                <th>Personenbezogene Daten</th>
+            </tr>
+            <tr>
+                <td>Bundesamt für Seeschifffahrt und Hydrographie (BSH)</td>
+                <td>Wasserstands- und Gezeitenvorhersagen</td>
+                <td>Nur IP-Adresse (technisch bedingt)</td>
+            </tr>
+            <tr>
+                <td>TideCheck API</td>
+                <td>Ergänzende Gezeitendaten</td>
+                <td>Nur IP-Adresse (technisch bedingt)</td>
+            </tr>
+        </table>
+        <p>Bei diesen Anfragen wird technisch bedingt deine IP-Adresse an den jeweiligen Server übermittelt. Dies ist in der Natur der Internetkommunikation begründet und wird von uns weder gespeichert noch ausgewertet.</p>
+        <p><strong>Rechtsgrundlage:</strong> Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO) – die App benötigt Gezeitendaten, um ihre Kernfunktion zu erfüllen.</p>
 
-        <h2>7. Apple App Store Review – Compliance Details</h2>
-        <p>In accordance with Apple's App Review Guidelines (including Guidelines 1.3 and 2.1), we confirm the following:</p>
+        <!-- ==================== ABSCHNITT C: DIE WEBSITE ==================== -->
 
-        <div class="qa-section">
-            <p><strong>Does the app include third-party analytics?</strong><br>
-            No. TideNow does not include any third-party analytics tools or services. No usage data, behavioral data, or device data is collected for analytics purposes.</p>
+        <h2>4. Die Website – tidenow.app</h2>
+
+        <h3>4.1 Hosting</h3>
+        <p>Die Website wird von <strong>Webflow, Inc.</strong> (San Francisco, USA) gehostet. Beim Besuch der Website werden automatisch Server-Log-Dateien erfasst:</p>
+        <ul>
+            <li>IP-Adresse (anonymisiert)</li>
+            <li>Datum und Uhrzeit des Zugriffs</li>
+            <li>Angeforderte Seite / URL</li>
+            <li>Browser-Typ und Betriebssystem</li>
+            <li>Referrer-URL</li>
+        </ul>
+        <p>Diese Daten werden von Webflow automatisch erhoben und dienen der Sicherstellung des Betriebs. Wir haben keinen Zugriff auf die einzelnen Log-Einträge.</p>
+        <p><strong>Rechtsgrundlage:</strong> Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO) – Bereitstellung und Sicherheit der Website.</p>
+        <p><strong>Hinweis zur Datenübermittlung in die USA:</strong> Webflow, Inc. ist unter dem EU-U.S. Data Privacy Framework zertifiziert. Weitere Informationen: <a href="https://webflow.com/legal/eu-privacy-policy" target="_blank">Webflow Datenschutz</a>.</p>
+
+        <h3>4.2 Cookies &amp; Tracking</h3>
+        <div class="highlight">
+            <strong>Wir verwenden keine Tracking-Cookies.</strong> Die Website setzt keine Analyse-Tools (z.&nbsp;B. Google Analytics), keine Marketing-Cookies und keine Social-Media-Tracker ein.
         </div>
+        <p>Einziger lokaler Speicher: Wenn du den Datenschutz-Hinweis am unteren Bildschirmrand schließt, wird ein Eintrag in deinem Browser-<code>localStorage</code> gesetzt (<code>tn-privacy-ok</code>), damit der Hinweis nicht erneut erscheint. Dieser Eintrag enthält keine personenbezogenen Daten und wird nicht an Server übermittelt.</p>
 
-        <div class="qa-section">
-            <p><strong>Does the app include third-party advertising?</strong><br>
-            No. TideNow does not include any advertising whatsoever. There are no ad networks, ad SDKs, or advertising trackers integrated into the app.</p>
-        </div>
+        <h3>4.3 Bug-Meldeformular</h3>
+        <p>Auf der Website gibt es ein optionales Formular zur Meldung von Fehlern. Wenn du dieses Formular absendest, werden folgende Daten erhoben:</p>
+        <table>
+            <tr>
+                <th>Feld</th>
+                <th>Pflicht</th>
+                <th>Zweck</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>Ja</td>
+                <td>Anrede bei Rückmeldung</td>
+            </tr>
+            <tr>
+                <td>E-Mail-Adresse</td>
+                <td>Ja</td>
+                <td>Rückmeldung zum gemeldeten Bug</td>
+            </tr>
+            <tr>
+                <td>iPhone-Modell</td>
+                <td>Nein</td>
+                <td>Fehleranalyse</td>
+            </tr>
+            <tr>
+                <td>iOS-Version</td>
+                <td>Nein</td>
+                <td>Fehleranalyse</td>
+            </tr>
+            <tr>
+                <td>Gezeitenstation</td>
+                <td>Nein</td>
+                <td>Fehlerzuordnung</td>
+            </tr>
+            <tr>
+                <td>Fehlerbeschreibung</td>
+                <td>Ja</td>
+                <td>Verständnis des Problems</td>
+            </tr>
+            <tr>
+                <td>Screenshot (optional)</td>
+                <td>Nein</td>
+                <td>Visuelle Dokumentation</td>
+            </tr>
+            <tr>
+                <td>IP-Adresse</td>
+                <td>Automatisch</td>
+                <td>Spam-Schutz</td>
+            </tr>
+        </table>
 
-        <div class="qa-section">
-            <p><strong>Will the data be shared with any third parties?</strong><br>
-            No. TideNow does not share any user data with third parties. All data processed by the app (location, settings, cached tide information) remains exclusively on the user's device. The only outbound network requests are to public tide data APIs (BSH, TideCheck) to retrieve tide forecasts, and these requests contain no personal or user-identifying information beyond the standard IP address inherent in any internet request.</p>
-        </div>
+        <p><strong>Verarbeitung:</strong> Die Formulardaten werden über den Dienst <strong>FormSubmit.co</strong> per E-Mail an uns weitergeleitet. FormSubmit.co speichert die Daten nur zur Übermittlung und löscht sie anschließend. Weitere Informationen: <a href="https://formsubmit.co/privacy.pdf" target="_blank">FormSubmit.co Datenschutz</a>.</p>
 
-        <div class="qa-section">
-            <p><strong>Is the app collecting any user or device data for purposes beyond third-party analytics or third-party advertising?</strong><br>
-            No. TideNow does not collect any user or device data. The app does not use device identifiers (IDFA, IDFV), does not fingerprint devices, and does not collect any telemetry. The optional location permission is used solely to determine the nearest tide station, and this processing occurs entirely on-device.</p>
-        </div>
+        <p><strong>IP-Adresse:</strong> Zur Spam-Erkennung wird deine IP-Adresse über den Dienst <strong>ipify.org</strong> abgefragt und der Bug-Meldung beigefügt. Die IP wird ausschließlich zur Spam-Prävention verwendet.</p>
 
-        <h2>8. Changes to This Policy</h2>
-        <p>This privacy policy may be updated occasionally. The current version is always available at this URL.</p>
+        <p><strong>CAPTCHA:</strong> Zusätzlich enthält das Formular eine einfache Rechenaufgabe als Spam-Schutz. Dabei werden keine Daten an externe Dienste übermittelt – die Prüfung erfolgt vollständig im Browser.</p>
 
-        <h2>9. Contact</h2>
-        <p>If you have any questions about this privacy policy, please contact us at:<br>
+        <p><strong>Rechtsgrundlage:</strong> Deine Einwilligung durch aktives Absenden des Formulars (Art. 6 Abs. 1 lit. a DSGVO). Du kannst deine Einwilligung jederzeit per E-Mail an <a href="mailto:henning@tidenow.app">henning@tidenow.app</a> widerrufen.</p>
+
+        <p><strong>Speicherdauer:</strong> Bug-Meldungen werden bis zur Behebung des Fehlers aufbewahrt und anschließend gelöscht, spätestens nach 12 Monaten.</p>
+
+        <!-- ==================== ABSCHNITT D: RECHTE ==================== -->
+
+        <h2>5. Deine Rechte nach DSGVO</h2>
+        <p>Du hast jederzeit folgende Rechte:</p>
+        <ul>
+            <li><strong>Auskunft</strong> (Art. 15 DSGVO) – Welche Daten wir über dich haben</li>
+            <li><strong>Berichtigung</strong> (Art. 16 DSGVO) – Korrektur unrichtiger Daten</li>
+            <li><strong>Löschung</strong> (Art. 17 DSGVO) – Löschung deiner Daten</li>
+            <li><strong>Einschränkung</strong> (Art. 18 DSGVO) – Einschränkung der Verarbeitung</li>
+            <li><strong>Datenübertragbarkeit</strong> (Art. 20 DSGVO) – Herausgabe deiner Daten in maschinenlesbarem Format</li>
+            <li><strong>Widerspruch</strong> (Art. 21 DSGVO) – Widerspruch gegen Verarbeitung auf Basis berechtigter Interessen</li>
+            <li><strong>Widerruf</strong> (Art. 7 Abs. 3 DSGVO) – Widerruf erteilter Einwilligungen mit Wirkung für die Zukunft</li>
+        </ul>
+        <p>Zur Ausübung deiner Rechte genügt eine formlose E-Mail an <a href="mailto:henning@tidenow.app">henning@tidenow.app</a>.</p>
+
+        <h2>6. Beschwerderecht</h2>
+        <p>Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). Zuständig ist in der Regel die Behörde deines Bundeslandes. Eine Übersicht findest du unter <a href="https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html" target="_blank">bfdi.bund.de</a>.</p>
+
+        <h2>7. Kinder</h2>
+        <p>TideNow erhebt keine personenbezogenen Daten in der App und ist für Nutzer jeden Alters geeignet. Das Bug-Formular auf der Website sollte von Minderjährigen unter 16 Jahren nur mit Einwilligung eines Erziehungsberechtigten genutzt werden.</p>
+
+        <h2>8. Änderungen</h2>
+        <p>Diese Datenschutzerklärung kann gelegentlich aktualisiert werden. Die jeweils aktuelle Version ist unter dieser URL abrufbar. Bei wesentlichen Änderungen weisen wir auf der Website darauf hin.</p>
+
+        <h2>9. Kontakt</h2>
+        <p>Bei Fragen zum Datenschutz erreichst du uns unter:<br>
         <a href="mailto:henning@tidenow.app">henning@tidenow.app</a></p>
 
         <div class="footer">
-            &copy; 2026 TideNow. All rights reserved.
+            &copy; 2026 TideNow · Henning Hock · Alle Rechte vorbehalten.
         </div>
     </div>
 </body>
